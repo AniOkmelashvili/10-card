@@ -1,0 +1,72 @@
+:root :{
+    --brightorange: hsl(31, 77%, 52%);
+    --darkcyan: hsl(184, 100%, 22%);
+    --verydarkcyan: hsl(179, 100%, 13%);
+    --white: hsl(0, 0%, 100%, 0.75);
+    --Verylightgray : hsl(0, 0%, 95%);
+}
+@import url(https://fonts.google.com/specimen/Lexend+Deca);
+@import url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+div {
+    max-width: 250px;
+  height: 400px;
+  padding: 35px;
+  margin-top: 200px;
+  
+}
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+}
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+p {
+    color: hsl(0, 0%, 100%, 0.75);
+    font-family: "Big+Shoulders+Display";
+    line-height: 1.5;
+}
+h1 {
+    color: hsl(0, 0%, 95%); 
+    font-family: "Lexend+Deca", sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+button {
+    display: flex;
+    align-items: flex-end;
+  cursor: pointer;
+  text-align: center;
+  padding: 15px;
+  width: 120px;
+  border-radius: 50px;
+  border: 2px solid hsl(0, 0%, 95%);
+
+}
+.sedan button {
+    margin-top: 50px;
+    color: hsl(31, 77%, 52%);
+}
+.suvs button {
+    margin-top: 50px;
+    color: hsl(184, 100%, 22%);
+}
+.luxury button {
+    margin-top: 50px;
+    color: hsl(179, 100%, 13%);
+}
